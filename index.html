@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Tourism Business</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header>
+    <div class="logo">🌴 Jerry Tourism & Heaven </div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#destinations">Destinations</a>
+        <a href="#packages">Packages</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- HERO SECTION -->
+<section id="home" class="hero">
+    <h1>Explore Paradise With Jerry </p>
+    <button onclick="scrollToSection('packages')"> Fly to Jerry Heaven 🏄🏻🌴</button>
+</section>
+
+<!-- DESTINATIONS -->
+<section id="destinations" class="section">
+    <h2>Popular Destinations</h2>
+    <div class="cards">
+        <div class="card">
+            <img src="https://i.pinimg.com/1200x/96/6b/bd/966bbdfd56ee57c996a5a9c79624f743.jpg">
+            <h3>Jerry Beaches</h3>
+            <p> Back side of Jerry Home </p>
+        </div>
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/bf/3a/48/bf3a489466e650ade94bee0c96ac1d0d.jpg">
+            <h3>Jerry Estate</h3>
+            <p>Front side of Jerry Home </p>
+        </div>
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/ab/94/f3/ab94f378a59117720f59d2387e1ab0b8.jpg">
+            <h3>Jerry BackWater</h3>
+            <p>Inside Jerry Home </p>
+        </div>
+    </div>
+</section>
+
+<!-- PACKAGES -->
+<section id="packages" class="section gray">
+    <h2>Tour Packages</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>3 Days / 2 Nights</h3>
+            <p>✔ Hotel ✔ Transport ✔ Guide</p>
+            <strong>₹15,000</strong>
+        </div>
+        <div class="card">
+            <h3>5 Days / 4 Nights</h3>
+            <p>✔ Resort ✔ Sightseeing ✔ Food</p>
+            <strong>₹28,000</strong>
+        </div>
+        <div class="card">
+            <h3>7 Days Luxury</h3>
+            <p>✔ Premium Stay ✔ Activities</p>
+            <strong>₹55,000</strong>
+        </div>
+    </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="section">
+    <h2>Places to visit </h2>
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1585816561202-e98fe10d8025?q=80&w=1526&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="boat-img">
+        <img src="https://images.unsplash.com/photo-1731436137302-664775406641?q=80&w=1140&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <img src="https://images.unsplash.com/photo-1585816595874-02ba39b5b19f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <img src="https://images.unsplash.com/photo-1720250581797-ecf79300157b?q=80&w=2092&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section gray">
+    <h2>Contact Us : JerryHeaven@hotmail.com &  Ph: +91 9874568515</h2>
+    <form onsubmit="submitForm(event)">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send Inquiry</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 YourTourism. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

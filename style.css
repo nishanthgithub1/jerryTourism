@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #0b8457;
+    color: #fff;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+position: relative;
+    background: url("https://images.unsplash.com/photo-1528034342377-c406327f14b7?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center/cover no-repeat;
+    color: green;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    border: none;
+    background: #ffcc00;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* SECTIONS */
+.section {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.gray {
+    background: #f4f4f4;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 280px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+/* GALLERY */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.boat-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+}
+
+/* FORM */
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+form input, form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+form button {
+    background: #0b8457;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
